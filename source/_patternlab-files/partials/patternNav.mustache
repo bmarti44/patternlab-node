@@ -1,17 +1,17 @@
 <ol class="sg-nav">
-	{{# buckets }}
-		<li class="sg-nav-{{ bucketNameLC }}"><a class="sg-acc-handle">{{ bucketNameUC }}</a><ol class="sg-acc-panel">
-		{{# navItems }}
-			<li class="sg-nav-{{ sectionNameLC }}"><a class="sg-acc-handle">{{ sectionNameUC }}</a><ol class="sg-acc-panel">
-			{{# navSubItems }}
-			<li><a href="patterns/{{ patternPath }}" class="sg-pop  {{# patternState }}sg-pattern-state {{ patternState }}{{/ patternState }}" data-patternpartial="{{ patternPartial }}">{{ patternName }}</a></li>
-			{{/ navSubItems }}
+	{% for bucket in buckets %}
+		<li class="sg-nav-{{ bucket.bucketNameLC }}"><a class="sg-acc-handle">{{ bucket.bucketNameUC }}</a><ol class="sg-acc-panel">
+		{% for navItem in navItems %}
+			<li class="sg-nav-{{ navItem.sectionNameLC }}"><a class="sg-acc-handle">{{ navItem.sectionNameUC }}</a><ol class="sg-acc-panel">
+			{% for navSubItem in navSubItems %}
+			<li><a href="patterns/{{ navSubItem.patternPath }}" class="sg-pop  {%if navSubItem.patternState %}sg-pattern-state {{ navSubItem.patternState }}{% endif %}" data-patternpartial="{{ navSubItem.patternPartial }}">{{ navSubItem.patternName }}</a></li>
+			{% endfor %}
 			</ol></li>
-		{{/ navItems }}
-		{{# patternItems }}
-			<li><a href="patterns/{{ patternPath }}" class="sg-pop {{# patternState }}sg-pattern-state {{ patternState }}{{/ patternState }}"" data-patternpartial="{{ patternPartial }}">{{ patternName }}</a></li>
-		{{/ patternItems }}
+		{% endfor %}
+		{% for patternItem in patternItems %}
+			<li><a href="patterns/{{ patternItem.patternPath }}" class="sg-pop {% if patternItem.patternState %}sg-pattern-state {{ patternItem.patternState }}{% endif %}"" data-patternpartial="{{ patternItem.patternPartial }}">{{ patternItem.patternName }}</a></li>
+		{% endfor %}
 		</ol></li>
-	{{/ buckets }}
+	{% endfor %}
 	<li><a href="styleguide/html/styleguide.html" class="sg-pop" data-patternpartial="all">All</a></li>
 </ol>

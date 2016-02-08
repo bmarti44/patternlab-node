@@ -15,38 +15,38 @@
 
       <!-- Patterns -->
       <div id="sg-patterns">
-        {{# partials }}
+        {% for partial in partials %}
           <div class="sg-pattern">
-            <h2 class="sg-pattern-head" ><a href="../../patterns/{{ patternLink }}" class="patternLink" data-patternpartial="{{ patternPartialPath }}">{{ patternDisplayName }}</a></h2>
+            <h2 class="sg-pattern-head" ><a href="../../patterns/{{ partial.patternLink }}" class="patternLink" data-patternpartial="{{ partial.patternPartialPath }}">{{ partial.patternDisplayName }}</a></h2>
             <div class="sg-pattern-body">
-              {{{ patternPartial }}}
+              {{{ partial.patternPartial }}}
               <div class="sg-code" style="display: none">
-                {{# patternLineageExists }}
+                {% if partial.patternLineageExists %}
                   <div class="sg-code-contains">
                     This pattern contains:
-                    {{# patternLineages }}
-                      <a href="{{ lineagePath }}"><code>{{ lineagePattern }}</code></a>
-                    {{/ patternLineages }}
+                    {% for patternLineage in partial.patternLineages %}
+                      <a href="{{ patternLineage }}"><code>{{ patternLineage }}</code><a>
+                    {% endfor %}
                   </div>
-                {{/ patternLineageExists }}
+                {% endif %}
                 <h3 class="sg-code-head">HTML</h3>
                 <pre class="sg-code-html">
                   <code>
-                    {{ patternPartial }}
+                    {{ partial.patternPartial }}
                   </code>
                 </pre>
-                {{# patternCSSExists }}
+                {% if patternCSSExists %}
                   <h3 class="sg-code-head">CSS</h3>
-                  <pre class="sg-code-css">
-                    <code>
-                      {{ patternCSS }}
-                    </code>
-                  </pre>
-                {{/ patternCSSExists }}
+                    <pre class="sg-code-css">
+                      <code>
+                        {{ partial.patternCSS }}
+                      </code>
+                    </pre>
+                {% endif %}
               </div>
             </div>
           </div>
-        {{/ partials }}
+        {% endfor %}
       </div> <!--end #sg-patterns-->
 
     </div><!--end .sg-main-->

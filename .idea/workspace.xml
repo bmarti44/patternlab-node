@@ -5,8 +5,17 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/builder/patternlab_gulp.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/pattern_assembler.js" afterPath="$PROJECT_DIR$/builder/pattern_assembler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_data/data.json" afterPath="$PROJECT_DIR$/source/_data/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" afterPath="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache" />
     </list>
     <ignored path="patternlab-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,43 +37,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pattern_assembler.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/builder/pattern_assembler.js">
+      <file leaf-file-name="00-homepage.mustache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6925795">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-landscape-4x3.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+            <state vertical-scroll-proportion="-1.6666666">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-landscape-16x9.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache">
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_data/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5555556">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="-27.75">
+              <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="00-homepage.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state vertical-scroll-proportion="-12.166667">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-blog.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-blog.mustache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5555553">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleguide.mustache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.111111">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewall.mustache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/viewall.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.22222">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patternNav.mustache" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.888889">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ishControls.mustache" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.83038867">
+              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -82,6 +149,15 @@
         <option value="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" />
         <option value="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" />
         <option value="$PROJECT_DIR$/builder/pattern_assembler.js" />
+        <option value="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" />
+        <option value="$PROJECT_DIR$/source/_data/data.json" />
+        <option value="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json" />
+        <option value="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json" />
+        <option value="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache" />
+        <option value="$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache" />
+        <option value="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" />
+        <option value="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" />
+        <option value="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" />
       </list>
     </option>
   </component>
@@ -346,11 +422,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/builder/pattern_assembler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6925795">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.75">
+          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.166667">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5555553">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.111111">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/viewall.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.22222">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.888889">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6666666">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83038867">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

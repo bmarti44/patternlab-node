@@ -5,11 +5,10 @@
 		<div class="l-two-col">
 			<div class="l-main">
 				<section class="section latest-posts">
-					
 					<ul class="post-list">
-						{{# latest-posts}}
+						{% for latestPost in latestPosts %}
 							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts}}
+						{% endfor %}
 					</ul>
 					<a href="#" class="text-btn">View more posts</a>
 				</section>

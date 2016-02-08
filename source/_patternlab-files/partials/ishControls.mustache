@@ -10,53 +10,53 @@
 						</form><!--end #sg-form-->
 					</div><!--end #sg-current-size-->
 					<ul class="sg-acc-panel sg-size-options">
-						{{# ishControlsVisible.s }}<li><a href="#" id="sg-size-s">S</a></li>{{/ ishControlsVisible.s }}
-						{{# ishControlsVisible.m }}<li><a href="#" id="sg-size-m">M</a></li>{{/ ishControlsVisible.m }}
-						{{# ishControlsVisible.l }}<li><a href="#" id="sg-size-l">L</a></li>{{/ ishControlsVisible.l }}
-						{{# ishControlsVisible.full }}<li><a href="#" id="sg-size-full">Full</a></li>{{/ ishControlsVisible.full }}
-						{{# ishControlsVisible.random }}<li><a href="#" id="sg-size-random">Random</a></li>{{/ ishControlsVisible.random }}
-						{{# ishControlsVisible.disco }}<li><a href="#" class="mode-link" id="sg-size-disco">Disco</a></li>{{/ ishControlsVisible.disco }}
-						{{# ishControlsVisible.hay }}<li><a href="#" class="mode-link" id="sg-size-hay">Hay!</a></li>{{/ ishControlsVisible.hay }}
+						{% if ishControlsVisible.s %}<li><a href="#" id="sg-size-s">S</a></li>{% endif %}
+						{% if ishControlsVisible.m %}<li><a href="#" id="sg-size-m">M</a></li>{% endif %}
+						{% if ishControlsVisible.l %}<li><a href="#" id="sg-size-l">L</a></li>{% endif %}
+						{% if ishControlsVisible.full %}<li><a href="#" id="sg-size-full">Full</a></li>{% endif %}
+						{% if ishControlsVisible.random %}<li><a href="#" id="sg-size-random">Random</a></li>{% endif %}
+						{% if ishControlsVisible.disco %}<li><a href="#" class="mode-link" id="sg-size-disco">Disco</a></li>{% endif %}
+						{% if ishControlsVisible.hay %}<li><a href="#" class="mode-link" id="sg-size-hay">Hay!</a></li>{% endif %}
 					</ul>
 				</li>
-				{{# ishControlsVisible.mqs }}
+				{% if ishControlsVisible.mqs %}
 				<li class="sg-mqs">
 					<a href="#" class="mode-link sg-acc-handle" id="sg-size-mq" title="Media queries in stylesheet">MQ</a>
 					<ul class="sg-acc-panel sg-left" id="sg-mq">
-						{{# mqs }}
-							<li><a href="#">{{ . }}</a></li>
-						{{/ mqs }}
+					  {% for mq in mqs %}
+					    <li><a href="#">{{ mq }}</a></li>
+					  {% endfor %}
 					</ul>
 				</li>
-				{{/ ishControlsVisible.mqs }}
-				{{# ishControlsVisible.find }}
+				{% endif %}
+				{% if ishControlsVisible.find %}
 				<li class="sg-find">
 					<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-search" id="sg-f-toggle" title="Search Patterns"><span class="is-vishidden">Search Patterns</span></a>
 					<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-find" style="margin-top: 33px;">
 							<li><input class="typeahead" id="typeahead" type="text" placeholder="search for a pattern..."></li>
 					</ul>
 				</li>
-				{{/ ishControlsVisible.find }}
-				{{# ishControlsVisible.views-all }}
+				{% endif %}
+				{% if ishControlsVisible.views-all %}
 				<li class="sg-view">
 					<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-eye" id="sg-t-toggle" title="View"><span class="is-vishidden">View</span></a>
 					<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-view">
-						{{# ishControlsVisible.views-annotations }}<li><a href="#" class="sg-checkbox" id="sg-t-annotations">Annotations</a></li>{{/ ishControlsVisible.views-annotations }}
-						{{# ishControlsVisible.views-code }}<li><a href="#" class="sg-checkbox" id="sg-t-code">Code</a></li>{{/ ishControlsVisible.views-code }}
-						{{# ishControlsVisible.views-new }}<li><a href="#" target="_blank" id="sg-raw" class="sg-icon-link">Open in new window</a></li>{{/ ishControlsVisible.views-new }}
+						{% if ishControlsVisible.views-annotations %}<li><a href="#" class="sg-checkbox" id="sg-t-annotations">Annotations</a></li>{% endif %}
+						{% if ishControlsVisible.views-code %}<li><a href="#" class="sg-checkbox" id="sg-t-code">Code</a></li>{% endif %}
+						{% if ishControlsVisible.views-new %}<li><a href="#" target="_blank" id="sg-raw" class="sg-icon-link">Open in new window</a></li>{% endif %}
 					</ul>
 				</li>
-				{{/ ishControlsVisible.views-all }}
-				{{# ishControlsVisible.tools-all }}
+				{% endif %}
+				{% if ishControlsVisible.tools-all %}
 				<li class="sg-tools">
 					<a href="#" class="sg-acc-handle sg-tools-toggle sg-icon sg-icon-cog" id="sg-tools-toggle" title="Tools"><span class="is-vishidden">Tools</span></a>
 					<ul class="sg-acc-panel sg-right sg-checklist">
-						{{# ishControlsVisible.tools-sync }}<li><a href="http://localhost:3001" target="_blank" id="syncButton" class="sg-checkbox sg-auto-reload" data-state="off">BrowserSync UI</a></li>{{/ ishControlsVisible.tools-sync }}
-						{{# ishControlsVisible.tools-shortcuts }}<li><a href="http://pattern-lab.info/docs/advanced-keyboard-shortcuts.html" class="sg-icon-keyboard" target="_blank">Keyboard Shortcuts</a>{{/ ishControlsVisible.tools-shortcuts }}
-						{{# ishControlsVisible.tools-docs }}<li><a href="http://pattern-lab.info/docs/" class="sg-icon-file" target="_blank">Pattern Lab Docs</a>{{/ ishControlsVisible.tools-docs }}
+						{% if ishControlsVisible.tools-sync %}<li><a href="http://localhost:3001" target="_blank" id="syncButton" class="sg-checkbox sg-auto-reload" data-state="off">BrowserSync UI</a></li>{% endif %}
+						{% if ishControlsVisible.tools-shortcuts %}<li><a href="http://pattern-lab.info/docs/advanced-keyboard-shortcuts.html" class="sg-icon-keyboard" target="_blank">Keyboard Shortcuts</a>{% endif %}
+						{% if ishControlsVisible.tools-docs %}<li><a href="http://pattern-lab.info/docs/" class="sg-icon-file" target="_blank">Pattern Lab Docs</a>{% endif %}
 					</ul>
 				</li>
-				{{/ ishControlsVisible.tools-all }}
+				{% endif %}
 			</ul>
 
 		</div>

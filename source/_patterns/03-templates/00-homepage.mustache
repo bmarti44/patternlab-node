@@ -1,19 +1,19 @@
 <div class="page" id="page">
 	{{> organisms-header }}
 	<div role="main">
-		{{# emergency }}
+	    {% for name in emergency %}
 			{{> molecules-alert }}
-		{{/ emergency }}
-		{{# hero }}
+		{% endfor %}
+		{% for name in hero %}
 			{{> molecules-block-hero }}
-		{{/ hero}}
+		{% endfor %}
 
 		<div class="g g-3up">
-			{{# touts}}
+			{% for name in touts %}
 				<div class="gi">
 					{{> molecules-inset-block }}
 				</div>
-			{{/ touts}}
+			{% endfor %}
 		</div><!--end 3up-->
 
 		<hr />
@@ -23,9 +23,9 @@
 				<section class="section latest-posts">
 					<h2 class="section-title">Latest Posts</h2>
 					<ul class="post-list">
-						{{# latest-posts }}
+						{% for latestPost in latestPosts %}
 							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts }}
+						{% endfor %}
 					</ul>
 					<a href="#" class="text-btn">View more posts</a>
 				</section>
