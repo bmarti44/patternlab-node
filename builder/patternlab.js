@@ -138,7 +138,7 @@ var patternlab_engine = function () {
       fs.outputFileSync(patternlab.config.patterns.public + pattern.patternLink, patternlab.header + pattern.patternPartial + patternFooter);
 
       //write the mustache file too
-      fs.outputFileSync(patternlab.config.patterns.public + pattern.patternLink.replace('.html', '.mustache'), entity_encoder.encode(pattern.template));
+      fs.outputFileSync(patternlab.config.patterns.public + pattern.patternLink.replace('.html', '.twig'), entity_encoder.encode(pattern.template));
 
       //write the encoded version too
       fs.outputFileSync(patternlab.config.patterns.public + pattern.patternLink.replace('.html', '.escaped.html'), entity_encoder.encode(pattern.patternPartial));

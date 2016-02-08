@@ -76,10 +76,15 @@
 
     function renderPattern(template, data, partials) {
 
+      global.count = global.count ? global.count + 1 : 1;
+
       var twig = require('twig').twig;
 
       var templater = twig({
+        id: 'test' + global.count,
         allowInlineIncludes: true,
+        //trace: true,
+        //debug: true,
         data: template
       });
 
