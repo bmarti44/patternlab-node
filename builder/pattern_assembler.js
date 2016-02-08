@@ -76,12 +76,16 @@
 
     function renderPattern(template, data, partials) {
 
-      var mustache = require('mustache');
+      var twig = require('twig').twig;
+
+      var templater = twig({
+        data: template
+      });
 
       if(partials) {
-        return mustache.render(template, data, partials);
+        return templater.render(data);
       } else{
-        return mustache.render(template, data);
+        return templater.render(data);
       }
     }
 
