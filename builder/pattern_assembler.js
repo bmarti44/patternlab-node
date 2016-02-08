@@ -79,6 +79,7 @@
       var twig = require('twig').twig;
 
       var templater = twig({
+        allowInlineIncludes: true,
         data: template
       });
 
@@ -114,7 +115,7 @@
       }
 
       //can ignore all non-mustache files at this point
-      if(ext !== '.mustache'){
+      if(ext !== '.twig'){
         return;
       }
 
@@ -256,7 +257,7 @@
         switch(key){
           case patternlab.patterns[i].key:
           case patternlab.patterns[i].subdir + '/' + patternlab.patterns[i].fileName:
-          case patternlab.patterns[i].subdir + '/' + patternlab.patterns[i].fileName + '.mustache':
+          case patternlab.patterns[i].subdir + '/' + patternlab.patterns[i].fileName + '.twig':
             return patternlab.patterns[i];
         }
       }

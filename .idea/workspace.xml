@@ -2,20 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b0e22f-99f2-47c5-8388-f375ae57ccd8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.html.twig" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/builder/patternlab_gulp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.mustache" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/index.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/index.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/patternPaths.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/patternPaths.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/viewAllPaths.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/viewAllPaths.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/footer.html" afterPath="$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/footer.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/header.html" afterPath="$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/header.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/styleguide.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/viewall.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/00-colors.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/00-colors.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/01-fonts.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/01-fonts.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/02-animations.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/02-animations.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/03-visibility.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/00-global/03-visibility.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/00-headings.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/00-headings.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/01-subheadings.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/01-subheadings.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/02-headings-with-links.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/02-headings-with-links.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/03-paragraph.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/03-paragraph.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/04-blockquote.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/04-blockquote.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/05-inline-elements.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/05-inline-elements.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/06-time.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/06-time.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/07-preformatted-text.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/07-preformatted-text.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/08-emphasis-colors.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/08-emphasis-colors.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/09-hr.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/09-hr.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/10-caption.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/01-text/10-caption.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/02-lists/00-unordered.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/02-lists/00-unordered.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/02-lists/01-ordered.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/02-lists/01-ordered.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/02-lists/02-definition.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/02-lists/02-definition.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/00-logo.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/00-logo.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/03-square.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/03-square.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/04-avatar.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/04-avatar.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/05-icons.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/05-icons.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/06-loading-icon.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/06-loading-icon.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/07-favicon.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/07-favicon.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/00-text-fields.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/00-text-fields.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/01-select-menu.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/01-select-menu.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/02-checkbox.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/02-checkbox.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/03-radio-buttons.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/03-radio-buttons.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/04-html5-inputs.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/04-forms/04-html5-inputs.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/05-buttons/00-buttons.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/05-buttons/00-buttons.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/06-tables/00-table.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/06-tables/00-table.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/07-media/00-video.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/07-media/00-video.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/07-media/01-audio.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/07-media/01-audio.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/00-byline-author-only.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/00-byline-author-only.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/01-byline-author-time.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/01-byline-author-time.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/02-address.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/02-address.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/03-heading-group.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/03-heading-group.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/04-blockquote-with-citation.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/04-blockquote-with-citation.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/05-intro-text.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/05-intro-text.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/06-pullquote.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/00-text/06-pullquote.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/00-one-up.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/00-one-up.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/01-two-up.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/01-two-up.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/02-three-up.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/02-three-up.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/03-four-up.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/01-layout/03-four-up.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/00-media-block.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/00-media-block.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/01-headline-byline.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/01-headline-byline.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/02-block-hero.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/02-block-hero.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/03-block-thumb-headline.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/03-block-thumb-headline.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/04-headline-only.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/04-headline-only.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/05-inset-block.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/05-inset-block.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/03-media/00-figure-with-caption.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/03-media/00-figure-with-caption.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/03-media/_map.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/03-media/_map.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/04-forms/00-search.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/04-forms/00-search.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/04-forms/01-comment-form.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/04-forms/01-comment-form.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/04-forms/02-newsletter.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/04-forms/02-newsletter.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/00-primary-nav.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/00-primary-nav.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/01-footer-nav.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/01-footer-nav.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/02-breadcrumbs.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/02-breadcrumbs.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/03-pagination.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/03-pagination.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/04-tabs.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/05-navigation/04-tabs.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/06-components/00-social-share.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/06-components/00-social-share.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/06-components/01-accordion.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/06-components/01-accordion.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/06-components/02-single-comment.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/06-components/02-single-comment.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/01-molecules/07-messaging/00-alert.mustache" afterPath="$PROJECT_DIR$/source/_patterns/01-molecules/07-messaging/00-alert.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/00-global/00-header.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/00-global/00-header.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/00-global/01-footer.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/00-global/01-footer.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/01-article/00-article-body.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/01-article/00-article-body.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/02-comments/00-comment-thread.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/02-comments/00-comment-thread.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/02-comments/01-sticky-comment.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/02-comments/01-sticky-comment.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/03-components/00-carousel.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/03-components/00-carousel.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/04-sections/00-latest-posts.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/04-sections/00-latest-posts.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/04-sections/01-recent-tweets.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/04-sections/01-recent-tweets.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/02-organisms/04-sections/02-related-posts.mustache" afterPath="$PROJECT_DIR$/source/_patterns/02-organisms/04-sections/02-related-posts.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" afterPath="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/03-templates/01-blog.mustache" afterPath="$PROJECT_DIR$/source/_patterns/03-templates/01-blog.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/03-templates/02-article.mustache" afterPath="$PROJECT_DIR$/source/_patterns/03-templates/02-article.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/02-article.mustache" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/02-article.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/pattern_assembler.js" afterPath="$PROJECT_DIR$/builder/pattern_assembler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/patternlab.js" afterPath="$PROJECT_DIR$/builder/patternlab.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_data/data.json" afterPath="$PROJECT_DIR$/source/_data/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" afterPath="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" afterPath="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" afterPath="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache" afterPath="$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache" />
     </list>
     <ignored path="patternlab-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +119,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="00-homepage.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache">
+      <file leaf-file-name="00-homepage.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.6666666">
               <caret line="3" column="35" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="35" />
@@ -47,58 +129,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_data/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.75">
-              <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="00-homepage.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.166667">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-blog.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-blog.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5555553">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleguide.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.111111">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewall.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/viewall.mustache">
+      <file leaf-file-name="viewall.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/viewall.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-32.22222">
               <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
@@ -107,8 +139,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patternNav.mustache" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache">
+      <file leaf-file-name="patternNav.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.888889">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
@@ -117,12 +149,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ishControls.mustache" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache">
+      <file leaf-file-name="ishControls.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83038867">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+            <state vertical-scroll-proportion="-8.888889">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00-homepage.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/footer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/header.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patternlab.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/builder/patternlab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6746575">
+              <caret line="398" column="106" selection-start-line="398" selection-start-column="106" selection-end-line="398" selection-end-column="106" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pattern_assembler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/pattern_assembler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="276" column="38" selection-start-line="276" selection-start-column="38" selection-end-line="276" selection-end-column="38" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +232,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache" />
         <option value="$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache" />
-        <option value="$PROJECT_DIR$/builder/pattern_assembler.js" />
         <option value="$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache" />
         <option value="$PROJECT_DIR$/source/_data/data.json" />
         <option value="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.json" />
@@ -158,6 +241,10 @@
         <option value="$PROJECT_DIR$/source/_patternlab-files/viewall.mustache" />
         <option value="$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache" />
         <option value="$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache" />
+        <option value="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.mustache" />
+        <option value="$PROJECT_DIR$/builder/pattern_assembler.js" />
+        <option value="$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.html.twig" />
+        <option value="$PROJECT_DIR$/builder/patternlab.js" />
       </list>
     </option>
   </component>
@@ -177,7 +264,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1442" />
+    <option name="x" value="1438" />
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
@@ -258,6 +345,370 @@
               <option name="myItemId" value="_patterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-organisms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-sections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-organisms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-organisms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-comments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-organisms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-organisms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-messaging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06-components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-navigation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-molecules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -278,6 +729,254 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="06-tables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-buttons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01-text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-atoms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="00-global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patternlab-files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patternlab-files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern-header-footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patternlab-node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_patternlab-files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,7 +1054,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1442" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="1438" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -388,7 +1087,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/05-inset-block.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patterns/01-molecules/02-blocks/05-inset-block.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.053003535">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
@@ -404,7 +1103,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/03-images/01-landscape-4x3.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
@@ -412,21 +1111,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patterns/00-atoms/03-images/02-landscape-16x9.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5555556">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder/pattern_assembler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0">
-          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,7 +1143,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/01-blog.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5555553">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
@@ -462,7 +1151,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/styleguide.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/styleguide.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.111111">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="45" />
@@ -470,7 +1159,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/viewall.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/viewall.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.22222">
           <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
@@ -478,18 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/patternNav.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.888889">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -502,10 +1183,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.mustache">
+    <entry file="file://$PROJECT_DIR$/source/_patterns/03-templates/00-homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83038867">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        <state vertical-scroll-proportion="-1.6666666">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/partials/ishControls.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.888889">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/pattern_assembler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="276" column="38" selection-start-line="276" selection-start-column="38" selection-end-line="276" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patterns/04-pages/00-homepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_patternlab-files/pattern-header-footer/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/patternlab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6746575">
+          <caret line="398" column="106" selection-start-line="398" selection-start-column="106" selection-end-line="398" selection-end-column="106" />
           <folding />
         </state>
       </provider>

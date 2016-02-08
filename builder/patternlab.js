@@ -57,8 +57,8 @@ var patternlab_engine = function () {
   function buildPatterns(deletePatternDir){
     patternlab.data = fs.readJSONSync('./source/_data/data.json');
     patternlab.listitems = fs.readJSONSync('./source/_data/listitems.json');
-    patternlab.header = fs.readFileSync('./source/_patternlab-files/pattern-header-footer/header.html', 'utf8');
-    patternlab.footer = fs.readFileSync('./source/_patternlab-files/pattern-header-footer/footer.html', 'utf8');
+    patternlab.header = fs.readFileSync('./source/_patternlab-files/pattern-header-footer/header.html.twig', 'utf8');
+    patternlab.footer = fs.readFileSync('./source/_patternlab-files/pattern-header-footer/footer.html.twig', 'utf8');
     patternlab.patterns = [];
     patternlab.partials = {};
     patternlab.data.link = {};
@@ -177,7 +177,7 @@ var patternlab_engine = function () {
     }
 
     //build the styleguide
-    var styleguideTemplate = fs.readFileSync('./source/_patternlab-files/styleguide.mustache', 'utf8'),
+    var styleguideTemplate = fs.readFileSync('./source/_patternlab-files/styleguide.html.twig', 'utf8'),
     styleguideHtml = pattern_assembler.renderPattern(styleguideTemplate, {partials: styleguidePatterns});
     fs.outputFileSync('./public/styleguide/html/styleguide.html', styleguideHtml);
 
@@ -207,14 +207,14 @@ var patternlab_engine = function () {
           }
         }
 
-        var viewAllTemplate = fs.readFileSync('./source/_patternlab-files/viewall.mustache', 'utf8');
+        var viewAllTemplate = fs.readFileSync('./source/_patternlab-files/viewall.html.twig', 'utf8');
         var viewAllHtml = pattern_assembler.renderPattern(viewAllTemplate, {partials: viewAllPatterns, patternPartial: patternPartial});
         fs.outputFileSync(patternlab.config.patterns.public + pattern.flatPatternPath + '/index.html', viewAllHtml);
       }
     }
 
     //build the patternlab website
-    var patternlabSiteTemplate = fs.readFileSync('./source/_patternlab-files/index.mustache', 'utf8');
+    var patternlabSiteTemplate = fs.readFileSync('./source/_patternlab-files/index.html.twig', 'utf8');
 
     //sort all patterns explicitly.
     patternlab.patterns = patternlab.patterns.sort(function(a,b){
@@ -383,20 +383,20 @@ var patternlab_engine = function () {
 
     //the patternlab site requires a lot of partials to be rendered.
     //patternNav
-    var patternNavTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternNav.mustache', 'utf8');
+    var patternNavTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternNav.html.twig', 'utf8');
     var patternNavPartialHtml = pattern_assembler.renderPattern(patternNavTemplate, patternlab);
 
     //ishControls
-    var ishControlsTemplate = fs.readFileSync('./source/_patternlab-files/partials/ishControls.mustache', 'utf8');
+    var ishControlsTemplate = fs.readFileSync('./source/_patternlab-files/partials/ishControls.html.twig', 'utf8');
     patternlab.config.mqs = patternlab.mediaQueries;
     var ishControlsPartialHtml = pattern_assembler.renderPattern(ishControlsTemplate, patternlab.config);
 
     //patternPaths
-    var patternPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternPaths.mustache', 'utf8');
+    var patternPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternPaths.html.twig', 'utf8');
     var patternPathsPartialHtml = pattern_assembler.renderPattern(patternPathsTemplate, {'patternPaths': JSON.stringify(patternlab.patternPaths)});
 
     //viewAllPaths
-    var viewAllPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/viewAllPaths.mustache', 'utf8');
+    var viewAllPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/viewAllPaths.html.twig', 'utf8');
     var viewAllPathsPartialHtml = pattern_assembler.renderPattern(viewAllPathsTemplate, {'viewallpaths': JSON.stringify(patternlab.viewAllPaths)});
 
     //render the patternlab template, with all partials
