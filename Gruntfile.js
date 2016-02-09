@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 				files: [
 					'source/css/**/*.css',
 					'public/styleguide/css/*.css',
-					'source/_patterns/**/*.mustache',
+					'source/_patterns/**/*.html.twig',
 					'source/_patterns/**/*.json',
 					'source/_data/*.json'
 				],

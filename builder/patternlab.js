@@ -395,7 +395,6 @@ var patternlab_engine = function () {
     var patternPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternPaths.html.twig', 'utf8');
     var patternPathsPartialHtml = pattern_assembler.renderPattern('patternPaths', patternPathsTemplate, {'patternPaths': JSON.stringify(patternlab.patternPaths)});
 
-    console.log(patternNavPartialHtml);
     //viewAllPaths
     var viewAllPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/viewAllPaths.html.twig', 'utf8');
     var viewAllPathsPartialHtml = pattern_assembler.renderPattern('viewAllPaths', viewAllPathsTemplate, {'viewallpaths': JSON.stringify(patternlab.viewAllPaths)});
@@ -407,8 +406,6 @@ var patternlab_engine = function () {
       'patternPaths': patternPathsPartialHtml,
       'viewAllPaths': viewAllPathsPartialHtml
     });
-
-    console.log(patternlabSiteHtml);
 
     fs.outputFileSync('./public/index.html', patternlabSiteHtml);
   }
