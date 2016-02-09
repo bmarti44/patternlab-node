@@ -57,7 +57,7 @@
 					//extend pattern data links into link for pattern link shortcuts to work. we do this locally and globally
 					allData.link = extend({}, patternlab.data.link);
 
-					var renderedPartial = pattern_assembler.renderPattern(partialPattern.extendedTemplate, allData, patternlab.partials);
+					var renderedPartial = pattern_assembler.renderPattern(partialName, partialPattern.extendedTemplate, allData, patternlab.partials);
 
 					//remove the parameter from the partial and replace it with the rendered partial + paramData
 					pattern.extendedTemplate = pattern.extendedTemplate.replace(pMatch, renderedPartial);

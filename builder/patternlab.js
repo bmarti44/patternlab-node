@@ -129,10 +129,10 @@ var patternlab_engine = function () {
       allData = pattern_assembler.merge_data(allData, pattern.jsonFileData);
 
       //render the extendedTemplate with all data
-      pattern.patternPartial = pattern_assembler.renderPattern(pattern.extendedTemplate, allData);
+      pattern.patternPartial = pattern_assembler.renderPattern('extended', pattern.extendedTemplate, allData);
 
       //add footer info before writing
-      var patternFooter = pattern_assembler.renderPattern(patternlab.footer, pattern);
+      var patternFooter = pattern_assembler.renderPattern('footer', patternlab.footer, pattern);
 
       //write the compiled template to the public patterns directory
       fs.outputFileSync(patternlab.config.patterns.public + pattern.patternLink, patternlab.header + pattern.patternPartial + patternFooter);
@@ -178,7 +178,7 @@ var patternlab_engine = function () {
 
     //build the styleguide
     var styleguideTemplate = fs.readFileSync('./source/_patternlab-files/styleguide.html.twig', 'utf8'),
-    styleguideHtml = pattern_assembler.renderPattern(styleguideTemplate, {partials: styleguidePatterns});
+    styleguideHtml = pattern_assembler.renderPattern('styleguide', styleguideTemplate, {partials: styleguidePatterns});
     fs.outputFileSync('./public/styleguide/html/styleguide.html', styleguideHtml);
 
     //build the viewall pages
@@ -208,7 +208,7 @@ var patternlab_engine = function () {
         }
 
         var viewAllTemplate = fs.readFileSync('./source/_patternlab-files/viewall.html.twig', 'utf8');
-        var viewAllHtml = pattern_assembler.renderPattern(viewAllTemplate, {partials: viewAllPatterns, patternPartial: patternPartial});
+        var viewAllHtml = pattern_assembler.renderPattern('viewall', viewAllTemplate, {partials: viewAllPatterns, patternPartial: patternPartial});
         fs.outputFileSync(patternlab.config.patterns.public + pattern.flatPatternPath + '/index.html', viewAllHtml);
       }
     }
@@ -384,28 +384,32 @@ var patternlab_engine = function () {
     //the patternlab site requires a lot of partials to be rendered.
     //patternNav
     var patternNavTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternNav.html.twig', 'utf8');
-    var patternNavPartialHtml = pattern_assembler.renderPattern(patternNavTemplate, patternlab);
+    var patternNavPartialHtml = pattern_assembler.renderPattern('patternNav', patternNavTemplate, patternlab);
 
     //ishControls
     var ishControlsTemplate = fs.readFileSync('./source/_patternlab-files/partials/ishControls.html.twig', 'utf8');
     patternlab.config.mqs = patternlab.mediaQueries;
-    var ishControlsPartialHtml = pattern_assembler.renderPattern(ishControlsTemplate, patternlab.config);
+    var ishControlsPartialHtml = pattern_assembler.renderPattern('ishControls', ishControlsTemplate, patternlab.config);
 
     //patternPaths
     var patternPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/patternPaths.html.twig', 'utf8');
-    var patternPathsPartialHtml = pattern_assembler.renderPattern(patternPathsTemplate, {'patternPaths': JSON.stringify(patternlab.patternPaths)});
+    var patternPathsPartialHtml = pattern_assembler.renderPattern('patternPaths', patternPathsTemplate, {'patternPaths': JSON.stringify(patternlab.patternPaths)});
 
+    console.log(patternNavPartialHtml);
     //viewAllPaths
     var viewAllPathsTemplate = fs.readFileSync('./source/_patternlab-files/partials/viewAllPaths.html.twig', 'utf8');
-    var viewAllPathsPartialHtml = pattern_assembler.renderPattern(viewAllPathsTemplate, {'viewallpaths': JSON.stringify(patternlab.viewAllPaths)});
+    var viewAllPathsPartialHtml = pattern_assembler.renderPattern('viewAllPaths', viewAllPathsTemplate, {'viewallpaths': JSON.stringify(patternlab.viewAllPaths)});
 
     //render the patternlab template, with all partials
-    var patternlabSiteHtml = pattern_assembler.renderPattern(patternlabSiteTemplate, {}, {
+    var patternlabSiteHtml = pattern_assembler.renderPattern('index', patternlabSiteTemplate, {
       'ishControls': ishControlsPartialHtml,
       'patternNav': patternNavPartialHtml,
       'patternPaths': patternPathsPartialHtml,
       'viewAllPaths': viewAllPathsPartialHtml
     });
+
+    console.log(patternlabSiteHtml);
+
     fs.outputFileSync('./public/index.html', patternlabSiteHtml);
   }
 

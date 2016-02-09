@@ -91,7 +91,7 @@ module.exports = function(grunt) {
 			// },
 			patterns: {
 				files: [
-					'source/_patterns/**/*.mustache',
+					'source/_patterns/**/*.twig',
 					'source/_patterns/**/*.json',
 					'source/_data/*.json'
 				],

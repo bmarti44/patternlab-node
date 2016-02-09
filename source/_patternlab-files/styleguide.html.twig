@@ -22,7 +22,7 @@
 					<div class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/{{ partial.patternLink }}" class="patternLink {% if partial.patternState %}sg-pattern-state {% endif %}" data-patternpartial="{{ partial.patternPartialPath }}">{{ partial.patternDisplayName }}</a></h2>
 						<div class="sg-pattern-body">
-							{{{ partial.patternPartial }}}
+							{{ partial.patternPartial }}
 							<div class="sg-code" style="display: none">
 								{% if partial.patternLineageExists %}
 									<div class="sg-code-contains">

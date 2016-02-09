@@ -82,11 +82,11 @@
 							}
 
 							//render with data
-							thisBlockHTML = pattern_assembler.renderPattern(thisBlockTemplate, allData, patternlab.partials);
+							thisBlockHTML = pattern_assembler.renderPattern(pattern.key, thisBlockTemplate, allData, patternlab.partials);
 
 						} else{
 							//just render with mergedData
-							thisBlockHTML = pattern_assembler.renderPattern(thisBlockTemplate, allData, patternlab.partials);
+							thisBlockHTML = pattern_assembler.renderPattern(pattern.key, thisBlockTemplate, allData, patternlab.partials);
 						}
 
 						//add the rendered HTML to our string

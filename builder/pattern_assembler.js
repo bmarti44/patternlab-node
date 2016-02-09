@@ -74,17 +74,14 @@
       }
     }
 
-    function renderPattern(template, data, partials) {
+    function renderPattern(id, template, data, partials) {
 
-      global.count = global.count ? global.count + 1 : 1;
+      var twig = require('twig').twig,
+        templater;
 
-      var twig = require('twig').twig;
-
-      var templater = twig({
-        id: 'test' + global.count,
+      templater = twig({
+        //id: id,
         allowInlineIncludes: true,
-        //trace: true,
-        //debug: true,
         data: template
       });
 
@@ -377,8 +374,8 @@
       addPattern: function(pattern, patternlab){
         addPattern(pattern, patternlab);
       },
-      renderPattern: function(template, data, partials){
-        return renderPattern(template, data, partials);
+      renderPattern: function(id, template, data, partials){
+        return renderPattern(id, template, data, partials);
       },
       process_pattern_iterative: function(file, patternlab){
         processPatternIterative(file, patternlab);

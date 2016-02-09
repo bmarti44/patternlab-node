@@ -19,7 +19,7 @@
           <div class="sg-pattern">
             <h2 class="sg-pattern-head" ><a href="../../patterns/{{ partial.patternLink }}" class="patternLink" data-patternpartial="{{ partial.patternPartialPath }}">{{ partial.patternDisplayName }}</a></h2>
             <div class="sg-pattern-body">
-              {{{ partial.patternPartial }}}
+              {{ dump(partial) }}
               <div class="sg-code" style="display: none">
                 {% if partial.patternLineageExists %}
                   <div class="sg-code-contains">
@@ -56,7 +56,7 @@
       // handle injection of items from patternlab.js
       var patternPartial = "{{ patternPartial }}";
       var lineage = "";
-      var baseurl = "{{{baseurl}}}";
+      var baseurl = "{{baseurl}}";
     </script>
     <script src="../../styleguide/js/vendor/jwerty.js"></script>
     <script src="../../styleguide/js/postmessage.js"></script>
