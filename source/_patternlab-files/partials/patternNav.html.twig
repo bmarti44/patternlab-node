@@ -1,14 +1,14 @@
 <ol class="sg-nav">
 	{% for bucket in buckets %}
 		<li class="sg-nav-{{ bucket.bucketNameLC }}"><a class="sg-acc-handle">{{ bucket.bucketNameUC }}</a><ol class="sg-acc-panel">
-		{% for navItem in navItems %}
+		{% for navItem in bucket.navItems %}
 			<li class="sg-nav-{{ navItem.sectionNameLC }}"><a class="sg-acc-handle">{{ navItem.sectionNameUC }}</a><ol class="sg-acc-panel">
-			{% for navSubItem in navSubItems %}
-			<li><a href="patterns/{{ navSubItem.patternPath }}" class="sg-pop  {%if navSubItem.patternState %}sg-pattern-state {{ navSubItem.patternState }}{% endif %}" data-patternpartial="{{ navSubItem.patternPartial }}">{{ navSubItem.patternName }}</a></li>
+			{% for navSubItem in navItem.navSubItems %}
+				<li><a href="patterns/{{ navSubItem.patternPath }}" class="sg-pop  {%if navSubItem.patternState %}sg-pattern-state {{ navSubItem.patternState }}{% endif %}" data-patternpartial="{{ navSubItem.patternPartial }}">{{ navSubItem.patternName }}</a></li>
 			{% endfor %}
 			</ol></li>
 		{% endfor %}
-		{% for patternItem in patternItems %}
+		{% for patternItem in bucket.patternItems %}
 			<li><a href="patterns/{{ patternItem.patternPath }}" class="sg-pop {% if patternItem.patternState %}sg-pattern-state {{ patternItem.patternState }}{% endif %}"" data-patternpartial="{{ patternItem.patternPartial }}">{{ patternItem.patternName }}</a></li>
 		{% endfor %}
 		</ol></li>
